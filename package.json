@@ -1,14 +1,28 @@
 {
+  "name": "week14-mysqlfullstackapp-823-burger-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "name": "",
-  "version": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GcLaPorte/Week14-MySQLFullStackApp-823-Burger-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GcLaPorte/Week14-MySQLFullStackApp-823-Burger-/issues"
+  },
+  "homepage": "https://github.com/GcLaPorte/Week14-MySQLFullStackApp-823-Burger-#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.12",
-    "mysql": "^2.16.0"
+    "mysql": "^2.16.0",
+    "save": "^2.3.2",
+    "sequelize": "^4.39.0"
   }
 }
